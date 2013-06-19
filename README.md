@@ -11,4 +11,4 @@ where:
 - end_index is the last line number in the URL list
 - save_as is the file extension with which the content is saved (e.g. txt)
 
-Suppose you got a url list of 20 URLs in a file list.txt and you want to fetch the content of the last 15 and save content in a text file. The command will be: <code>java URLFetcher list.txt 6 20 txt</code>
+Suppose you got a url list of 20 URLs in a file list.txt and you want to fetch the content of the last 15 and save content in a text file. The command will be: <code>java URLFetcher list.txt 6 20 txt</code>. The fetched content will be saved under a directory <code>fetched/</code>.
